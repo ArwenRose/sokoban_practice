@@ -178,7 +178,8 @@ def apply_move(board, direction_key):
         
     # TODO 1：現在の座標を取得し、次の座標を計算する。
     #           盤面内なら hero を更新する（最初は壁や箱を無視してよい）。
-    # TODO 2：TODO 1の判定に can_enter() を組み込む。
+    # TODO 2：TODO 1の判定に 
+     を組み込む。
     # TODO 3：次の位置が crates に含まれたら push_crate() を呼ぶ。
     #           箱が動かなければプレイヤーも移動してはいけない。
     # ヒント：移動が成功するときだけ次を実行する。
